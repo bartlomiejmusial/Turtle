@@ -1,6 +1,6 @@
-from turtle import *
+from turtle import Turtle, Screen
 
-# DRAW SQUARE
+# # DRAW SQUARE
 # tim = Turtle()
 # tim.shape("turtle")
 # tim.color("DeepPink")
@@ -8,12 +8,11 @@ from turtle import *
 #     tim.forward(200)
 #     tim.right(90)
 
-color('MidnightBlue', 'gold1')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
+# # DRAW DASHED LINE
+# for _ in range(30):
+#     tim.forward(5)
+#     tim.penup()
+#     tim.forward(5)
+#     tim.pendown()
+
+
