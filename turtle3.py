@@ -13,7 +13,7 @@ def rgb():
 
 
 # TURTLE DRAWING SHAPES WITH RANDOM GENERATED RGB COLORS
-for shape in range(3, 9):
+for shape in range(3, 11):
     rgb()
     tim.forward(100)
     for side in range(shape - 1):
